@@ -1,0 +1,19 @@
+{
+  "name": "pdfix",
+  "version": "1.0.0",
+  "description": "Application for managing and updating pdf documents",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^12.1.0",
+    "pdf-lib": "^1.17.1"
+  },
+  "bin": {
+    "pdfix": "./index.js"
+  },
+  "type": "module"
+}
