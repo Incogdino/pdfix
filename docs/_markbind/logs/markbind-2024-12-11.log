@@ -1,0 +1,253 @@
+2024-12-11T11:49:50.189Z - info: Initialization success.
+2024-12-11T11:49:56.670Z - info: Website generation started at 7:49:56 pm
+2024-12-11T11:49:57.033Z - info: Building assets...
+2024-12-11T11:49:57.316Z - info: Assets built
+2024-12-11T11:49:57.316Z - info: Generating pages...
+2024-12-11T11:49:57.493Z - info: Pages built
+2024-12-11T11:49:57.627Z - info: Site data built
+2024-12-11T11:49:57.628Z - info: Website generation complete! Total build time: 0.974s
+2024-12-11T11:49:57.659Z - info: Serving "C:\Users\javie\Projects\pdfix\_site" at http://127.0.0.1:8080
+2024-12-11T11:49:57.659Z - info: Press CTRL+C to stop ...
+2024-12-11T11:50:16.773Z - info: [7:50:16 pm] Reload for file add: C:\Users\javie\Projects\pdfix\docs\contents\topic1.md
+2024-12-11T11:50:16.775Z - info: [7:50:16 pm] Reload for file add: C:\Users\javie\Projects\pdfix\docs\contents\topic2.md
+2024-12-11T11:50:16.776Z - info: [7:50:16 pm] Reload for file add: C:\Users\javie\Projects\pdfix\docs\contents\topic3a.md
+2024-12-11T11:50:16.777Z - info: [7:50:16 pm] Reload for file add: C:\Users\javie\Projects\pdfix\docs\contents\topic3b.md
+2024-12-11T11:50:16.879Z - info: [7:50:16 pm] Reload for file deletion: C:\Users\javie\Projects\pdfix\contents\topic1.md
+2024-12-11T11:50:16.880Z - info: [7:50:16 pm] Reload for file deletion: C:\Users\javie\Projects\pdfix\contents\topic2.md
+2024-12-11T11:50:16.880Z - info: [7:50:16 pm] Reload for file deletion: C:\Users\javie\Projects\pdfix\contents\topic3a.md
+2024-12-11T11:50:16.880Z - info: [7:50:16 pm] Reload for file deletion: C:\Users\javie\Projects\pdfix\contents\topic3b.md
+2024-12-11T11:50:17.789Z - info: Pages or site config modified, updating pages...
+2024-12-11T11:50:18.806Z - debug: Assets removed
+2024-12-11T11:50:18.808Z - warn: Rebuilding all pages...
+2024-12-11T11:50:18.809Z - info: Generating pages...
+2024-12-11T11:50:18.966Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic1.html' found in file 'C:\Users\javie\Projects\pdfix\_markbind\layouts\default.md'
+2024-12-11T11:50:18.967Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic2.html' found in file 'C:\Users\javie\Projects\pdfix\_markbind\layouts\default.md'
+2024-12-11T11:50:18.967Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic3a.html' found in file 'C:\Users\javie\Projects\pdfix\_markbind\layouts\default.md'
+2024-12-11T11:50:18.968Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic3b.html' found in file 'C:\Users\javie\Projects\pdfix\_markbind\layouts\default.md'
+2024-12-11T11:50:18.969Z - info: Pages built
+2024-12-11T11:51:07.925Z - info: Website generation started at 7:51:07 pm
+2024-12-11T11:51:07.994Z - info: Building assets...
+2024-12-11T11:51:08.006Z - info: Assets built
+2024-12-11T11:51:08.007Z - info: Generating pages...
+2024-12-11T11:51:08.188Z - info: Pages built
+2024-12-11T11:51:08.326Z - info: Site data built
+2024-12-11T11:51:08.326Z - info: Website generation complete! Total build time: 0.466s
+2024-12-11T11:51:08.353Z - info: Serving "C:\Users\javie\Projects\pdfix\docs\_site" at http://127.0.0.1:8080
+2024-12-11T11:51:08.354Z - info: Press CTRL+C to stop ...
+2024-12-11T12:02:20.939Z - info: [8:02:20 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:02:21.950Z - info: Rebuilding 1 pages
+2024-12-11T12:02:21.987Z - info: Site data built
+2024-12-11T12:02:21.988Z - info: Pages rebuilt
+2024-12-11T12:02:21.988Z - info: Website regeneration complete! Total build time: 0.039s
+2024-12-11T12:02:32.026Z - info: [8:02:32 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:02:33.041Z - info: Rebuilding 1 pages
+2024-12-11T12:02:33.070Z - info: Site data built
+2024-12-11T12:02:33.071Z - info: Pages rebuilt
+2024-12-11T12:02:33.071Z - info: Website regeneration complete! Total build time: 0.031s
+2024-12-11T12:02:40.298Z - info: [8:02:40 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:02:41.308Z - info: Rebuilding 1 pages
+2024-12-11T12:02:41.342Z - info: Site data built
+2024-12-11T12:02:41.342Z - info: Pages rebuilt
+2024-12-11T12:02:41.342Z - info: Website regeneration complete! Total build time: 0.035s
+2024-12-11T12:04:17.524Z - info: [8:04:17 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:04:18.526Z - info: Rebuilding 1 pages
+2024-12-11T12:04:18.558Z - info: Site data built
+2024-12-11T12:04:18.559Z - info: Pages rebuilt
+2024-12-11T12:04:18.559Z - info: Website regeneration complete! Total build time: 0.034s
+2024-12-11T12:05:11.220Z - info: [8:05:11 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:05:12.223Z - info: Rebuilding 1 pages
+2024-12-11T12:05:12.251Z - info: Site data built
+2024-12-11T12:05:12.251Z - info: Pages rebuilt
+2024-12-11T12:05:12.251Z - info: Website regeneration complete! Total build time: 0.029s
+2024-12-11T12:06:02.053Z - info: [8:06:02 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:06:03.057Z - info: Rebuilding 1 pages
+2024-12-11T12:06:03.091Z - info: Site data built
+2024-12-11T12:06:03.091Z - info: Pages rebuilt
+2024-12-11T12:06:03.091Z - info: Website regeneration complete! Total build time: 0.035s
+2024-12-11T12:06:51.325Z - info: [8:06:51 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:06:52.337Z - info: Rebuilding 1 pages
+2024-12-11T12:06:52.367Z - info: Site data built
+2024-12-11T12:06:52.367Z - info: Pages rebuilt
+2024-12-11T12:06:52.367Z - info: Website regeneration complete! Total build time: 0.03s
+2024-12-11T12:07:35.105Z - info: [8:07:35 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:07:36.115Z - info: Rebuilding 1 pages
+2024-12-11T12:07:36.143Z - info: Site data built
+2024-12-11T12:07:36.144Z - info: Pages rebuilt
+2024-12-11T12:07:36.144Z - info: Website regeneration complete! Total build time: 0.03s
+2024-12-11T12:10:16.292Z - info: [8:10:16 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:10:17.302Z - info: Rebuilding 1 pages
+2024-12-11T12:10:17.334Z - info: Site data built
+2024-12-11T12:10:17.334Z - info: Pages rebuilt
+2024-12-11T12:10:17.334Z - info: Website regeneration complete! Total build time: 0.033s
+2024-12-11T12:14:45.816Z - info: [8:14:45 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:14:46.834Z - info: Rebuilding 1 pages
+2024-12-11T12:14:46.874Z - info: Site data built
+2024-12-11T12:14:46.874Z - info: Pages rebuilt
+2024-12-11T12:14:46.874Z - info: Website regeneration complete! Total build time: 0.042s
+2024-12-11T12:15:57.570Z - info: [8:15:57 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:15:58.572Z - info: Rebuilding 1 pages
+2024-12-11T12:15:58.606Z - info: Site data built
+2024-12-11T12:15:58.606Z - info: Pages rebuilt
+2024-12-11T12:15:58.606Z - info: Website regeneration complete! Total build time: 0.035s
+2024-12-11T12:16:01.943Z - info: [8:16:01 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:16:02.947Z - info: Rebuilding 1 pages
+2024-12-11T12:16:02.972Z - info: Site data built
+2024-12-11T12:16:02.972Z - info: Pages rebuilt
+2024-12-11T12:16:02.972Z - info: Website regeneration complete! Total build time: 0.026s
+2024-12-11T12:16:36.273Z - info: [8:16:36 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:16:37.282Z - info: Rebuilding 1 pages
+2024-12-11T12:16:37.314Z - info: Site data built
+2024-12-11T12:16:37.315Z - info: Pages rebuilt
+2024-12-11T12:16:37.315Z - info: Website regeneration complete! Total build time: 0.034s
+2024-12-11T12:16:57.634Z - info: [8:16:57 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:16:58.638Z - info: Rebuilding 1 pages
+2024-12-11T12:16:58.673Z - info: Site data built
+2024-12-11T12:16:58.673Z - info: Pages rebuilt
+2024-12-11T12:16:58.674Z - info: Website regeneration complete! Total build time: 0.036s
+2024-12-11T12:17:08.135Z - info: [8:17:08 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:17:09.140Z - info: Rebuilding 1 pages
+2024-12-11T12:17:09.173Z - info: Site data built
+2024-12-11T12:17:09.173Z - info: Pages rebuilt
+2024-12-11T12:17:09.174Z - info: Website regeneration complete! Total build time: 0.034s
+2024-12-11T12:17:21.666Z - info: [8:17:21 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:17:22.683Z - info: Rebuilding 1 pages
+2024-12-11T12:17:22.716Z - info: Site data built
+2024-12-11T12:17:22.716Z - info: Pages rebuilt
+2024-12-11T12:17:22.716Z - info: Website regeneration complete! Total build time: 0.034s
+2024-12-11T12:17:47.381Z - info: [8:17:47 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:17:48.395Z - info: Rebuilding 1 pages
+2024-12-11T12:17:48.421Z - info: Site data built
+2024-12-11T12:17:48.422Z - info: Pages rebuilt
+2024-12-11T12:17:48.422Z - info: Website regeneration complete! Total build time: 0.028s
+2024-12-11T12:18:38.697Z - info: [8:18:38 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:18:39.708Z - info: Rebuilding 1 pages
+2024-12-11T12:18:39.756Z - info: Site data built
+2024-12-11T12:18:39.756Z - info: Pages rebuilt
+2024-12-11T12:18:39.756Z - info: Website regeneration complete! Total build time: 0.049s
+2024-12-11T12:19:17.597Z - info: [8:19:17 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:19:18.611Z - info: Rebuilding 1 pages
+2024-12-11T12:19:18.643Z - info: Site data built
+2024-12-11T12:19:18.643Z - info: Pages rebuilt
+2024-12-11T12:19:18.644Z - info: Website regeneration complete! Total build time: 0.033s
+2024-12-11T12:19:29.857Z - info: [8:19:29 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:19:30.859Z - info: Rebuilding 1 pages
+2024-12-11T12:19:30.893Z - info: Site data built
+2024-12-11T12:19:30.893Z - info: Pages rebuilt
+2024-12-11T12:19:30.893Z - info: Website regeneration complete! Total build time: 0.035s
+2024-12-11T12:19:50.014Z - info: [8:19:50 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:19:51.032Z - info: Rebuilding 1 pages
+2024-12-11T12:19:51.059Z - info: Site data built
+2024-12-11T12:19:51.059Z - info: Pages rebuilt
+2024-12-11T12:19:51.059Z - info: Website regeneration complete! Total build time: 0.028s
+2024-12-11T12:19:59.542Z - info: [8:19:59 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:20:00.545Z - info: Rebuilding 1 pages
+2024-12-11T12:20:00.577Z - info: Site data built
+2024-12-11T12:20:00.577Z - info: Pages rebuilt
+2024-12-11T12:20:00.578Z - info: Website regeneration complete! Total build time: 0.032s
+2024-12-11T12:20:19.421Z - info: [8:20:19 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:20:20.430Z - info: Rebuilding 1 pages
+2024-12-11T12:20:20.460Z - info: Site data built
+2024-12-11T12:20:20.460Z - info: Pages rebuilt
+2024-12-11T12:20:20.460Z - info: Website regeneration complete! Total build time: 0.03s
+2024-12-11T12:20:23.496Z - info: [8:20:23 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:20:24.508Z - info: Rebuilding 1 pages
+2024-12-11T12:20:24.536Z - info: Site data built
+2024-12-11T12:20:24.536Z - info: Pages rebuilt
+2024-12-11T12:20:24.537Z - info: Website regeneration complete! Total build time: 0.03s
+2024-12-11T12:20:37.756Z - info: [8:20:37 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:20:38.772Z - info: Rebuilding 1 pages
+2024-12-11T12:20:38.805Z - info: Site data built
+2024-12-11T12:20:38.805Z - info: Pages rebuilt
+2024-12-11T12:20:38.806Z - info: Website regeneration complete! Total build time: 0.035s
+2024-12-11T12:20:46.017Z - info: [8:20:46 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:20:47.024Z - info: Rebuilding 1 pages
+2024-12-11T12:20:47.057Z - info: Site data built
+2024-12-11T12:20:47.058Z - info: Pages rebuilt
+2024-12-11T12:20:47.058Z - info: Website regeneration complete! Total build time: 0.035s
+2024-12-11T12:20:53.721Z - info: [8:20:53 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:20:54.723Z - info: Rebuilding 1 pages
+2024-12-11T12:20:54.754Z - info: Site data built
+2024-12-11T12:20:54.754Z - info: Pages rebuilt
+2024-12-11T12:20:54.755Z - info: Website regeneration complete! Total build time: 0.032s
+2024-12-11T12:20:55.977Z - info: [8:20:55 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:20:56.981Z - info: Rebuilding 1 pages
+2024-12-11T12:20:57.013Z - info: Site data built
+2024-12-11T12:20:57.013Z - info: Pages rebuilt
+2024-12-11T12:20:57.014Z - info: Website regeneration complete! Total build time: 0.033s
+2024-12-11T12:21:09.265Z - info: [8:21:09 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:21:10.280Z - info: Rebuilding 1 pages
+2024-12-11T12:21:10.310Z - info: Site data built
+2024-12-11T12:21:10.310Z - info: Pages rebuilt
+2024-12-11T12:21:10.310Z - info: Website regeneration complete! Total build time: 0.031s
+2024-12-11T12:21:18.586Z - info: [8:21:18 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:21:19.599Z - info: Rebuilding 1 pages
+2024-12-11T12:21:19.630Z - info: Site data built
+2024-12-11T12:21:19.630Z - info: Pages rebuilt
+2024-12-11T12:21:19.630Z - info: Website regeneration complete! Total build time: 0.032s
+2024-12-11T12:21:23.977Z - info: [8:21:23 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:21:24.990Z - info: Rebuilding 1 pages
+2024-12-11T12:21:25.018Z - info: Site data built
+2024-12-11T12:21:25.018Z - info: Pages rebuilt
+2024-12-11T12:21:25.019Z - info: Website regeneration complete! Total build time: 0.029s
+2024-12-11T12:21:29.747Z - info: [8:21:29 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:21:30.754Z - info: Rebuilding 1 pages
+2024-12-11T12:21:30.788Z - info: Site data built
+2024-12-11T12:21:30.789Z - info: Pages rebuilt
+2024-12-11T12:21:30.789Z - info: Website regeneration complete! Total build time: 0.035s
+2024-12-11T12:21:35.382Z - info: [8:21:35 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\index.md
+2024-12-11T12:21:36.390Z - info: Rebuilding 1 pages
+2024-12-11T12:21:36.420Z - info: Site data built
+2024-12-11T12:21:36.421Z - info: Pages rebuilt
+2024-12-11T12:21:36.421Z - info: Website regeneration complete! Total build time: 0.032s
+2024-12-11T12:22:29.296Z - info: [8:22:29 pm] Reload for file add: C:\Users\javie\Projects\pdfix\docs\contents\typicalWorkflow.md
+2024-12-11T12:22:30.310Z - info: Pages or site config modified, updating pages...
+2024-12-11T12:22:31.327Z - warn: Rebuilding all pages...
+2024-12-11T12:22:31.328Z - info: Generating pages...
+2024-12-11T12:22:31.481Z - info: Pages built
+2024-12-11T12:22:34.186Z - info: [8:22:34 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\contents\typicalWorkflow.md
+2024-12-11T12:22:35.192Z - info: Rebuilding 1 pages
+2024-12-11T12:22:35.214Z - info: Site data built
+2024-12-11T12:22:35.214Z - info: Pages rebuilt
+2024-12-11T12:22:35.214Z - info: Website regeneration complete! Total build time: 0.023s
+2024-12-11T12:22:41.505Z - info: [8:22:41 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\contents\typicalWorkflow.md
+2024-12-11T12:22:42.520Z - info: Rebuilding 1 pages
+2024-12-11T12:22:42.543Z - info: Site data built
+2024-12-11T12:22:42.543Z - info: Pages rebuilt
+2024-12-11T12:22:42.544Z - info: Website regeneration complete! Total build time: 0.024s
+2024-12-11T12:22:47.400Z - info: [8:22:47 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\contents\typicalWorkflow.md
+2024-12-11T12:22:48.415Z - info: Rebuilding 1 pages
+2024-12-11T12:22:48.441Z - info: Site data built
+2024-12-11T12:22:48.441Z - info: Pages rebuilt
+2024-12-11T12:22:48.441Z - info: Website regeneration complete! Total build time: 0.027s
+2024-12-11T12:24:12.456Z - info: [8:24:12 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\_markbind\layouts\default.md
+2024-12-11T12:24:13.472Z - info: Rebuilding 6 pages
+2024-12-11T12:24:13.630Z - info: Site data built
+2024-12-11T12:24:13.631Z - info: Pages rebuilt
+2024-12-11T12:24:13.631Z - info: Website regeneration complete! Total build time: 0.159s
+2024-12-11T12:24:20.424Z - info: [8:24:20 pm] Reload for file deletion: C:\Users\javie\Projects\pdfix\docs\contents\topic1.md
+2024-12-11T12:24:21.435Z - info: Pages or site config modified, updating pages...
+2024-12-11T12:24:22.451Z - debug: Assets removed
+2024-12-11T12:24:22.452Z - warn: Rebuilding all pages...
+2024-12-11T12:24:22.452Z - info: Generating pages...
+2024-12-11T12:24:22.542Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic1.html' found in file 'C:\Users\javie\Projects\pdfix\docs\_markbind\layouts\default.md'
+2024-12-11T12:24:22.544Z - info: Pages built
+2024-12-11T12:24:54.244Z - info: [8:24:54 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\contents\typicalWorkflow.md
+2024-12-11T12:24:55.256Z - info: Rebuilding 1 pages
+2024-12-11T12:24:55.286Z - info: Site data built
+2024-12-11T12:24:55.286Z - info: Pages rebuilt
+2024-12-11T12:24:55.286Z - info: Website regeneration complete! Total build time: 0.031s
+2024-12-11T12:24:59.049Z - info: [8:24:59 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\contents\typicalWorkflow.md
+2024-12-11T12:25:00.057Z - info: Rebuilding 1 pages
+2024-12-11T12:25:00.083Z - info: Site data built
+2024-12-11T12:25:00.083Z - info: Pages rebuilt
+2024-12-11T12:25:00.083Z - info: Website regeneration complete! Total build time: 0.027s
+2024-12-11T12:26:27.740Z - info: [8:26:27 pm] Reload for file change: C:\Users\javie\Projects\pdfix\docs\contents\typicalWorkflow.md
+2024-12-11T12:26:28.745Z - info: Rebuilding 1 pages
+2024-12-11T12:26:28.770Z - info: Site data built
+2024-12-11T12:26:28.770Z - info: Pages rebuilt
+2024-12-11T12:26:28.770Z - info: Website regeneration complete! Total build time: 0.026s

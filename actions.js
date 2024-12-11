@@ -1,6 +1,6 @@
 import { PDFDocument } from "pdf-lib";
 import fs from "fs/promises";
-import path from "path";
+import { saveDocument } from "./fileActions.js";
 
 export async function mergePdfs(filePath1, filePath2, otherFilePaths) {
   const filePaths = [filePath1, filePath2, ...otherFilePaths];
@@ -22,8 +22,7 @@ export async function mergePdfs(filePath1, filePath2, otherFilePaths) {
   }
 
   const pdfBytes = await newDoc.save();
-  const filePath = path.resolve(`finalpdf.pdf`);
-  fs.writeFile(filePath, pdfBytes);
+  saveDocument(pdfBytes, "merged.pdf");
 }
 
 export async function removePages(filePath, pageNumbers, options) {
@@ -45,6 +44,5 @@ export async function removePages(filePath, pageNumbers, options) {
   });
 
   const pdfBytes = await newDoc.save();
-  const savedPath = path.resolve(`pdfRemoved.pdf`);
-  fs.writeFile(savedPath, pdfBytes);
+  saveDocument(pdfBytes, "pdfRemoved.pdf");
 }
