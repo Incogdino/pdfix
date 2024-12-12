@@ -28,12 +28,10 @@
       <site-nav>
 * [Home :house:]({{ baseUrl }}/index.html)
 * [Typical Workflow]({{baseUrl}}/contents/typicalWorkflow.html)
-* [Topic 2]({{baseUrl}}/contents/topic2.html)
-* Topic 3 :expanded:
-  * [Topic 3a]({{baseUrl}}/contents/topic3a.html)
-  * [Topic 3b]({{baseUrl}}/contents/topic3b.html)
+* [Commands]({{baseUrl}}/contents/commands.html)
       </site-nav>
     </div>
+
   </nav>
   <div id="content-wrapper">
     <breadcrumb />

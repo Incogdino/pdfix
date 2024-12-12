@@ -8,26 +8,13 @@
       "headingKeywords": {}
     },
     {
-      "src": "contents/topic2.md",
-      "title": "Topic 2",
+      "src": "contents/commands.md",
+      "title": "Commands",
       "headings": {
-        "topic-2": "Topic 2"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "contents/topic3a.md",
-      "title": "Topic 3a",
-      "headings": {
-        "topic-3a": "Topic 3a"
-      },
-      "headingKeywords": {}
-    },
-    {
-      "src": "contents/topic3b.md",
-      "title": "Topic 3b",
-      "headings": {
-        "topic-3b": "Topic 3b"
+        "commands": "Commands",
+        "summary-of-commands": "Summary of Commands",
+        "list-of-commands": "List of commands",
+        "remove-pages-from-a-pdf-file-removepages": "Remove pages from a pdf file: removePages"
       },
       "headingKeywords": {}
     },
