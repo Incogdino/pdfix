@@ -4,6 +4,7 @@
 import fs from "fs/promises";
 import path from "path";
 import { confirm, input } from "@inquirer/prompts";
+import { program } from "commander";
 
 const removedDirectoryPath = path.resolve("./removed");
 
@@ -35,6 +36,17 @@ async function removedDirectoryExists() {
 }
 
 /*
+  Checks if a duplicate file exists in the removed directory.
+*/
+function duplicateFileExists(fileName) {
+  const filePath = path.join(removedDirectoryPath, fileName);
+  return fs
+    .access(filePath)
+    .then(() => true)
+    .catch(() => false);
+}
+
+/*
   Generates a new file name for the document. 
 
   If --name option is not specified, default file name would be the original file name with the action appended.
@@ -51,17 +63,6 @@ async function createFileName(filePath, name, action) {
   }
 
   return savedName;
-}
-
-/*
-  Checks if a duplicate file exists in the removed directory.
-*/
-function duplicateFileExists(fileName) {
-  const filePath = path.join(removedDirectoryPath, fileName);
-  return fs
-    .access(filePath)
-    .then(() => true)
-    .catch(() => false);
 }
 
 /*
@@ -97,4 +98,15 @@ async function handleDuplicateFile(savedName) {
   } while (!toOverride && duplicateExists);
 
   return newName;
+}
+
+/*
+  Checks if the file extension is valid.
+*/
+export function checkFileExtension(filePaths) {
+  filePaths.forEach((element) => {
+    if (path.extname(element) !== ".pdf") {
+      program.error("Invalid file extension. Please provide a PDF file.");
+    }
+  });
 }

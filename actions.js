@@ -1,9 +1,10 @@
 import { PDFDocument } from "pdf-lib";
 import fs from "fs/promises";
-import { saveDocument } from "./fileActions.js";
+import { saveDocument, checkFileExtension } from "./fileActions.js";
 
 export async function mergePdfs(filePath1, filePath2, otherFilePaths, options) {
   const filePaths = [filePath1, filePath2, ...otherFilePaths];
+  checkFileExtension(filePaths);
 
   const pdfData = await Promise.all(
     filePaths.map((filePath) =>
@@ -26,6 +27,8 @@ export async function mergePdfs(filePath1, filePath2, otherFilePaths, options) {
 }
 
 export async function removePages(filePath, pageNumbers, options) {
+  checkFileExtension([filePath]);
+
   const file = await fs
     .readFile(filePath)
     .then((buffer) => PDFDocument.load(buffer));
