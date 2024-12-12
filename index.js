@@ -48,7 +48,7 @@ program
 */
 program
   .command("merge")
-  .option("-n, --name <fileName>", "Output file name", "pdfix-merged.pdf")
+  .option("-n, --name <fileName>", "Output file name")
   .arguments("<filePath1> <filePath2> [otherFilePaths...]")
   .description("Merges two or more pdf files into a single pdf file")
   .action(actions.mergePdfs);
@@ -61,7 +61,7 @@ program
 program
   .command("removePages")
   .option("-s, --seperator <char>", "Seperator for page numbers", ",")
-  .option("-n, --name <fileName>", "Output file name", "pdfix-removed.pdf")
+  .option("-n, --name <fileName>", "Output file name")
   .arguments("<filePath> <pageNumbers>")
   .description("Removes specified pages of specified file")
   .action(actions.removePages);
