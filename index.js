@@ -9,6 +9,7 @@ import * as actions from "./actions.js";
   Create empty pdf files for testing
 */
 program
+  .name("pdfix")
   .command("create")
   .arguments("<numberOfFiles>")
   .description("Creates specified number of empty pdf files")
@@ -47,8 +48,12 @@ program
     Usage: merge <filePath1> <filePath2> [otherFilePaths...]
 */
 program
+  .name("pdfix")
   .command("merge")
-  .option("-n, --name <fileName>", "Output file name")
+  .option(
+    "-n, --name <fileName>",
+    'output file name. (Default: First file appended with "-merged")'
+  )
   .arguments("<filePath1> <filePath2> [otherFilePaths...]")
   .description("Merges two or more pdf files into a single pdf file")
   .action(actions.mergePdfs);
@@ -59,9 +64,13 @@ program
     Usage: removePages --seperator "[seperator]" <filePath> <pageNumbers>
 */
 program
+  .name("pdfix")
   .command("removePages")
-  .option("-s, --seperator <char>", "Seperator for page numbers", ",")
-  .option("-n, --name <fileName>", "Output file name")
+  .option("-s, --seperator <char>", "seperator for page numbers", ",")
+  .option(
+    "-n, --name <fileName>",
+    'output file name. (Default: First file appended with "-removed")'
+  )
   .arguments("<filePath> <pageNumbers>")
   .description("Removes specified pages of specified file")
   .action(actions.removePages);
