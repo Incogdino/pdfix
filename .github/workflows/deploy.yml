@@ -13,4 +13,6 @@ jobs:
         uses: MarkBind/markbind-action@v2
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          version: "4.0.0"
+          rootDirectory: "./docs"
+          baseUrl: "/pdfix"
+          version: "^5.5.2"
