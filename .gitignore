@@ -3,3 +3,6 @@
 
 # All documentation materials
 illustration/
+
+docs/_site/
+docs/_markbind/logs/
