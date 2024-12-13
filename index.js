@@ -5,6 +5,11 @@ import { program } from "commander";
 import path from "path";
 import * as actions from "./actions.js";
 
+program
+  .name("pdfix")
+  .version("1.0.0")
+  .description("CLI tool for manipulating PDF files safely and efficiently");
+
 /*
   Create empty pdf files for testing
 */

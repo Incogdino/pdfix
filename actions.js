@@ -28,15 +28,15 @@ export async function mergePdfs(filePath1, filePath2, otherFilePaths, options) {
 
 export async function removePages(filePath, pageNumbers, options) {
   checkFileExtension([filePath]);
-
   const file = await fs
     .readFile(filePath)
     .then((buffer) => PDFDocument.load(buffer));
   const newDoc = await PDFDocument.create();
 
+  // Get list of pages to keep
   const toRemove = pageNumbers
     .split(options.seperator)
-    .map((index) => Number(index));
+    .map((index) => parseInt(index) - 1);
   const toKeep = await file
     .getPageIndices()
     .filter((index) => !toRemove.includes(index));
