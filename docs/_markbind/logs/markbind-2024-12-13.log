@@ -178,3 +178,20 @@
 2024-12-13T13:04:57.222Z - info: Website generation complete! Total build time: 0.476s
 2024-12-13T13:04:57.250Z - info: Serving "C:\Users\javie\Projects\pdfix\docs\_site" at http://127.0.0.1:8080
 2024-12-13T13:04:57.250Z - info: Press CTRL+C to stop ...
+2024-12-13T13:34:58.856Z - info: Website generation started at 9:34:58 pm
+2024-12-13T13:34:58.912Z - info: Building assets...
+2024-12-13T13:34:58.924Z - info: Assets built
+2024-12-13T13:34:58.925Z - info: Generating pages...
+2024-12-13T13:34:59.106Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic1.html' found in file 'C:\Users\javie\Projects\pdfix\docs\_markbind\layouts\default.md'
+2024-12-13T13:34:59.107Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic2.html' found in file 'C:\Users\javie\Projects\pdfix\docs\_markbind\layouts\default.md'
+2024-12-13T13:34:59.108Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic3a.html' found in file 'C:\Users\javie\Projects\pdfix\docs\_markbind\layouts\default.md'
+2024-12-13T13:34:59.108Z - warn: You might have an invalid intra-link! Ignore this warning if it was intended.
+'/contents/topic3b.html' found in file 'C:\Users\javie\Projects\pdfix\docs\_markbind\layouts\default.md'
+2024-12-13T13:34:59.110Z - info: Pages built
+2024-12-13T13:34:59.248Z - info: Site data built
+2024-12-13T13:34:59.249Z - info: Website generation complete! Total build time: 0.445s
+2024-12-13T13:34:59.249Z - info: Build success!
+2024-12-13T13:35:57.286Z - info: The website has been deployed at: https://incogdino.github.io/pdfix
