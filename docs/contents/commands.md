@@ -39,3 +39,22 @@ The `removePages` command removes specified pages from the specified pdf file.
 **Format:** `pdfix removePages <filePath> <pageNumber> --seperator " " --name "name"`
 
 </box>
+
+Options:
+
+- `--seperator` or `-s` - defines a custom seperator for seperating the pages. (Default: ",")
+- `--name` or `-n` - defines a custom file name to save the modified pdf file.
+
+Arguments:
+
+- `<filePath>` - mandatory file path of the pdf file to modify. File path can be relative or absolute.
+- `<pageNumber>` - mandatory comma seperated number. If `--seperator` is defined, then string defined should be seperated by the defined seperator.
+
+<box type="info" light>
+    Out of bounds pages of the pdf file are ignored (i.e. page 10 is specified but the pdf only has 5 pages)
+</box>
+
+Examples:
+
+- `pdfix removePages ./firstPdf.pdf 1,3,5` - remove page 1,3 and 5 from the pdf file
+- `pdfix removePages ./firstPdf.pdf 1/3/5 --seperator "/" --name modifiedPdf.pdf`

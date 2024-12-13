@@ -13,6 +13,9 @@
     ".gitignore",
     "node_modules/*"
   ],
+  "style": {
+    "codeTheme": "light"
+  },
   "pagesExclude": ["node_modules/*"],
   "pages": [
     {

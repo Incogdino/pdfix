@@ -106,7 +106,7 @@ async function handleDuplicateFile(savedName) {
 export function checkFileExtension(filePaths) {
   filePaths.forEach((element) => {
     if (path.extname(element) !== ".pdf") {
-      program.error("Invalid file extension. Please provide a PDF file.");
+      program.error("Invalid file extension. Please provide a valid PDF file.");
     }
   });
 }
