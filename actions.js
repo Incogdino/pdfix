@@ -17,6 +17,7 @@ export async function mergePdfs(filePath1, filePath2, otherFilePaths, options) {
   for (let i = 0; i < pdfData.length; i++) {
     const data = pdfData[i];
     const pages = await newDoc.copyPages(data, data.getPageIndices());
+
     pages.forEach((page) => {
       newDoc.addPage(page);
     });
