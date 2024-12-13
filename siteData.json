@@ -1,0 +1,39 @@
+{
+  "enableSearch": true,
+  "pages": [
+    {
+      "src": "404.md",
+      "title": "Page not found",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/commands.md",
+      "title": "Commands",
+      "headings": {
+        "commands": "Commands",
+        "summary-of-commands": "Summary of Commands",
+        "list-of-commands": "List of commands",
+        "remove-pages-from-a-pdf-file-removepages": "Remove pages from a pdf file: removePages"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/typicalWorkflow.md",
+      "title": "Typical Workflow",
+      "headings": {
+        "typical-workflow": "Typical Workflow"
+      },
+      "headingKeywords": {}
+    },
+    {
+      "src": "index.md",
+      "title": "Home Page",
+      "headings": {
+        "pdfix": "PDFix",
+        "why-pdfix": "Why PDFix?"
+      },
+      "headingKeywords": {}
+    }
+  ]
+}
