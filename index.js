@@ -5,6 +5,7 @@ import { program } from "commander";
 import path from "path";
 import { mergePdfs } from "./commands/mergeCommand.js";
 import { removePages } from "./commands/removePagesCommand.js";
+import { extractPages } from "./commands/extractPagesCommand.js";
 
 program
   .name("pdfix")
@@ -75,10 +76,27 @@ program
   .option("-s, --seperator <char>", "seperator for page numbers", ",")
   .option(
     "-n, --name <fileName>",
-    'output file name. (Default: First file appended with "-removed")'
+    'output file name. (Default: File name appended with "-removed")'
   )
   .arguments("<filePath> <pageNumbers>")
   .description("Removes specified pages of specified file")
   .action(removePages);
+
+/*
+  Extracts specified pages from specified file
+
+    Usage: removePages --seperator "[seperator]" <filePath> <pageNumbers>
+*/
+program
+  .name("pdfix")
+  .command("extractPages")
+  .option("-s, --seperator <char>", "seperator for page numbers", ",")
+  .option(
+    "-n, --name <fileName>",
+    'output file name. (Default: File name appended with "-extract")'
+  )
+  .arguments("<filePath> <pageNumbers>")
+  .description("Extracts specified pages from specified file")
+  .action(extractPages);
 
 program.parseAsync(process.argv);
