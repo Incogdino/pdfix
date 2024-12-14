@@ -6,6 +6,7 @@ PDFix main features include:
 
 1. Merging two (or more) pdf files together.
 2. Removing specified pages from a pdf file.
+3. Extracting specified pages from a pdf file.
 
 More features are planned in the planned enhancement section.
 
