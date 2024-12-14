@@ -26,6 +26,11 @@
       "headingKeywords": {}
     },
     {
+      "src": "contents/plannedEnhancements.md",
+      "headings": {},
+      "headingKeywords": {}
+    },
+    {
       "src": "contents/typicalWorkflow.md",
       "title": "Typical Workflow",
       "headings": {
