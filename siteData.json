@@ -13,9 +13,16 @@
       "headings": {
         "commands": "Commands",
         "summary-of-commands": "Summary of Commands",
-        "list-of-commands": "List of commands",
-        "remove-pages-from-a-pdf-file-removepages": "Remove pages from a pdf file: removePages"
+        "the-help-command": " The help command",
+        "list-of-commands": " List of commands",
+        "remove-pages-from-a-pdf-file-removepages": " Remove pages from a pdf file: removePages",
+        "merge-pages-from-pdf-files-merge": " Merge pages from pdf files: merge"
       },
+      "headingKeywords": {}
+    },
+    {
+      "src": "contents/gettingStarted.md",
+      "headings": {},
       "headingKeywords": {}
     },
     {
