@@ -3,8 +3,10 @@
 </head-bottom>
 
 <header sticky>
-  <navbar type="dark">
-    <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">Your Logo</a>
+  <navbar type="light">
+    <a slot="brand" href="{{baseUrl}}/index.html" title="Home" class="navbar-brand">
+      <img src="../../images/logoImage.png" width=50></img>
+    </a>
     <li><a href="{{baseUrl}}/contents/topic1.html" class="nav-link">Topic 1</a></li>
     <li><a href="{{baseUrl}}/contents/topic2.html" class="nav-link">Topic 2</a></li>
     <dropdown header="Topic 3" class="nav-link">
@@ -30,6 +32,7 @@
 * [Typical Workflow]({{baseUrl}}/contents/typicalWorkflow.html)
 * [Getting started]({{baseUrl}}/contents/gettingStarted.html)
 * [Commands]({{baseUrl}}/contents/commands.html)
+* [Planned enhancements]({{baseUrl}}/contents/plannedEnhancements.html)
       </site-nav>
     </div>
 

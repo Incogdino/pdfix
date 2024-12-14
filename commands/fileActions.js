@@ -1,5 +1,5 @@
 /*
-  Actions for saving documents locally 
+  FIle actions for handling file documents locally 
 */
 import fs from "fs/promises";
 import path from "path";

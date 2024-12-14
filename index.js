@@ -3,7 +3,8 @@ import { PDFDocument, StandardFonts, rgb } from "pdf-lib";
 import fs from "fs/promises";
 import { program } from "commander";
 import path from "path";
-import * as actions from "./actions.js";
+import { mergePdfs } from "./commands/mergeCommand.js";
+import { removePages } from "./commands/removePagesCommand.js";
 
 program
   .name("pdfix")
@@ -61,7 +62,7 @@ program
   )
   .arguments("<filePath1> <filePath2> [otherFilePaths...]")
   .description("Merges two or more pdf files into a single pdf file")
-  .action(actions.mergePdfs);
+  .action(mergePdfs);
 
 /*
   Removes specified pages of specified file
@@ -78,6 +79,6 @@ program
   )
   .arguments("<filePath> <pageNumbers>")
   .description("Removes specified pages of specified file")
-  .action(actions.removePages);
+  .action(removePages);
 
 program.parseAsync(process.argv);

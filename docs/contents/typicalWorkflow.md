@@ -21,7 +21,7 @@ This is what a typical workflow for PDFix may look like for removing some pages 
 
 2. Take note of the pages that you want to remove from the pdf file
 
-3. Run the [`removePages`]() command from the command line
+3. Run the [`removePages`](./commands.md#remove-pages-from-a-pdf-file-removepages) command from the command line
 
 The updated pdf file will be stored in a seperate folder named `updated` in the same location the command was called.
 
