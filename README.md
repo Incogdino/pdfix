@@ -1,12 +1,3 @@
-<frontmatter>
-  title: Home Page
-  layout: default.md
-  pageNav: 4
-  pageNavTitle: "Topics"
-</frontmatter>
-
-<br>
-
 # PDFix
 
 PDFix is a CLI application used to modify and create PDF files locally on your computer. It is **lightweight**, **fast** and can **work offline**. Most importantly, it is safe (no need to connect to the internet for it to work) and open source.
