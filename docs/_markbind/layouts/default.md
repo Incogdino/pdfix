@@ -28,6 +28,7 @@
       <site-nav>
 * [Home :house:]({{ baseUrl }}/index.html)
 * [Typical Workflow]({{baseUrl}}/contents/typicalWorkflow.html)
+* [Getting started]({{baseUrl}}/contents/gettingStarted.html)
 * [Commands]({{baseUrl}}/contents/commands.html)
       </site-nav>
     </div>
