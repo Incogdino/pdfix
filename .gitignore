@@ -4,6 +4,9 @@
 # All documentation materials
 illustration/
 
+# All test materials
+test/
+
 # MacOS custom attributes files created by Finder
 .DS_Store
 docs/_site/
