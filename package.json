@@ -12,6 +12,7 @@
     "@inquirer/prompts": "^7.2.0",
     "commander": "^12.1.0",
     "inquirer": "^12.2.0",
+    "mock-fs": "^5.4.1",
     "pdf-lib": "^1.17.1"
   },
   "bin": {

@@ -5,7 +5,7 @@
 illustration/
 
 # All test materials
-test/
+testUtils/
 
 # MacOS custom attributes files created by Finder
 .DS_Store
