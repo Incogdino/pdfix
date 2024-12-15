@@ -16,13 +16,17 @@
         "the-help-command": " The help command",
         "list-of-commands": " List of commands",
         "remove-pages-from-a-pdf-file-removepages": " Remove pages from a pdf file: removePages",
+        "extract-pages-from-a-pdf-file-extractpages": " Extract pages from a pdf file: extractPages",
         "merge-pages-from-pdf-files-merge": " Merge pages from pdf files: merge"
       },
       "headingKeywords": {}
     },
     {
       "src": "contents/gettingStarted.md",
-      "headings": {},
+      "title": "Getting started",
+      "headings": {
+        "getting-started": "Getting started"
+      },
       "headingKeywords": {}
     },
     {
@@ -43,7 +47,8 @@
       "title": "Home Page",
       "headings": {
         "pdfix": "PDFix",
-        "why-pdfix": "Why PDFix?"
+        "why-pdfix": "Why PDFix?",
+        "getting-started": "Getting started"
       },
       "headingKeywords": {}
     }
