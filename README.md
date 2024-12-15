@@ -1,12 +1,15 @@
 # PDFix
 
+<center>
+<img src="./docs/images/logoImage.png" width="100">
+</center>
+
 PDFix is a CLI application used to modify and create PDF files locally on your computer. It is **lightweight**, **fast** and can **work offline**. Most importantly, it is safe (no need to connect to the internet for it to work) and open source.
 
 PDFix main features include:
 
 1. Merging two (or more) pdf files together.
 2. Removing specified pages from a pdf file.
-3. Extracting specified pages from a pdf file.
 
 More features are planned in the planned enhancement section.
 
@@ -16,12 +19,18 @@ Conventionally, manipulating pdf files have known to be cumbersome and expensive
 
 PDFix is different in a way that:
 
-1. Security First: Unlike online tools, PDFix processes your files entirely offline, ensuring that your sensitive documents never leave your computer. This eliminates the risk of exposure to data breaches or malicious websites.
+1. **Security First**: Unlike online tools, PDFix processes your files entirely offline, ensuring that your sensitive documents never leaves your computer or gets uploaded onto the internet. This eliminates the risk of exposure to data breaches or malicious websites.
 
-2. Cost-Effective: PDFix is completely free and open-source, making PDF manipulation accessible to everyone.
+2. **Cost-Effective**: PDFix is completely free and open-source, making PDF manipulation accessible to everyone.
 
-3. Simplicity and Speed: Designed to be lightweight and intuitive, PDFix delivers fast performance without compromising on functionality. Whether merging multiple PDFs or removing pages, the process is straightforward and efficient.
+3. **Simplicity and Speed**: Designed to be lightweight and intuitive, PDFix delivers fast performance without compromising on functionality. Whether merging multiple PDFs or removing pages, the process is straightforward and efficient.
 
-4. Full Control: With PDFix, you’re in complete control of your files and workflow. No uploads, no waiting, no third-party interference—just seamless local processing.
+4. **Full Control**: With PDFix, you’re in complete control of your files and workflow. No uploads, no waiting, no third-party interference.
 
 PDFix safeguards your documents and empower you with a reliable and trustworthy tool for all your PDF needs.
+
+## Getting started
+
+To get started with using PDFix, check out the [Getting started](./contents/gettingStarted.md) page.
+
+Alternatively, you can visit the [PDFix homepage](https://incogdino.github.io/pdfix/) to learn more!
