@@ -33,3 +33,7 @@ PDFix is different in a way that:
 4. **Full Control**: With PDFix, you’re in complete control of your files and workflow. No uploads, no waiting, no third-party interference.
 
 PDFix safeguards your documents and empower you with a reliable and trustworthy tool for all your PDF needs.
+
+## Getting started
+
+To get started with using PDFix, check out the [Getting started](./contents/gettingStarted.md) page.
