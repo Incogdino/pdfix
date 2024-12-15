@@ -12,16 +12,24 @@ const removedDirectoryPath = path.resolve("./removed");
   Saves the document to the removed directory. Creates the removed directory if it does not exist.
 */
 export async function saveDocument(doc, filePath, name, action) {
-  const fileName = await createFileName(filePath, name, action);
-  const savedPath = path.join(removedDirectoryPath, fileName);
+  try {
+    const fileName = await createFileName(filePath, name, action);
+    const savedPath = path.join(removedDirectoryPath, fileName);
 
-  if (await removedDirectoryExists()) {
-    fs.writeFile(savedPath, doc);
-    return;
-  } else {
-    fs.mkdir(removedDirectoryPath).then(() => {
+    if (await removedDirectoryExists()) {
       fs.writeFile(savedPath, doc);
-    });
+      return;
+    } else {
+      fs.mkdir(removedDirectoryPath).then(() => {
+        fs.writeFile(savedPath, doc);
+      });
+    }
+  } catch (error) {
+    if (error instanceof Error && error.name === "ExitPromptError") {
+      // Ctrl - C command, silence this error
+    } else {
+      throw error;
+    }
   }
 }
 
