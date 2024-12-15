@@ -56,7 +56,7 @@ async function createFileName(filePath, name, action) {
   const ext = path.extname(filePath);
   const fileName = path.basename(filePath, ext);
   let savedName =
-    name == undefined ? fileName + action + ext : name + action + ext;
+    name == undefined ? fileName + action + ext : name.split(".")[0] + ext;
 
   if (await duplicateFileExists(savedName)) {
     savedName = await handleDuplicateFile(savedName);
