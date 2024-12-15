@@ -17,5 +17,8 @@
   "bin": {
     "pdfix": "./index.js"
   },
-  "type": "module"
+  "type": "module",
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
