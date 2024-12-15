@@ -4,6 +4,8 @@ import { saveDocument, checkFileExtension } from "./fileActions.js";
 
 export async function removePages(filePath, pageNumbers, options) {
   checkFileExtension([filePath]);
+  checkFileAvailability([filePath]);
+
   const file = await fs
     .readFile(filePath)
     .then((buffer) => PDFDocument.load(buffer));

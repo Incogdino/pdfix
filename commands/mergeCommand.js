@@ -1,10 +1,15 @@
 import { PDFDocument } from "pdf-lib";
 import fs from "fs/promises";
-import { saveDocument, checkFileExtension } from "./fileActions.js";
+import {
+  saveDocument,
+  checkFileExtension,
+  checkFileAvailability,
+} from "./fileActions.js";
 
 export async function mergePdfs(filePath1, filePath2, otherFilePaths, options) {
   const filePaths = [filePath1, filePath2, ...otherFilePaths];
   checkFileExtension(filePaths);
+  checkFileAvailability(filePaths);
 
   const pdfData = await Promise.all(
     filePaths.map((filePath) =>

@@ -118,3 +118,13 @@ export function checkFileExtension(filePaths) {
     }
   });
 }
+
+export function checkFileAvailability(filePaths) {
+  filePaths.forEach((element) => {
+    fs.access(element).catch(() => {
+      program.error(
+        `"${element}" does not exist. Please specify a valid file.`
+      );
+    });
+  });
+}
