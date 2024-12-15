@@ -1,6 +1,10 @@
 import { PDFDocument } from "pdf-lib";
 import fs from "fs/promises";
-import { saveDocument, checkFileExtension } from "./fileActions.js";
+import {
+  saveDocument,
+  checkFileExtension,
+  checkFileAvailability,
+} from "./fileActions.js";
 
 export async function extractPages(filePath, pageNumbers, options) {
   checkFileExtension([filePath]);

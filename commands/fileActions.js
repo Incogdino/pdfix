@@ -36,8 +36,8 @@ export async function saveDocument(doc, filePath, name, action) {
 /*
   Checks if the removed directory folder exists.
 */
-async function removedDirectoryExists() {
-  return fs
+export async function removedDirectoryExists() {
+  return await fs
     .access(removedDirectoryPath)
     .then(() => true)
     .catch(() => false);
@@ -46,9 +46,9 @@ async function removedDirectoryExists() {
 /*
   Checks if a duplicate file exists in the removed directory.
 */
-function duplicateFileExists(fileName) {
+export async function duplicateFileExists(fileName) {
   const filePath = path.join(removedDirectoryPath, fileName);
-  return fs
+  return await fs
     .access(filePath)
     .then(() => true)
     .catch(() => false);
@@ -60,7 +60,7 @@ function duplicateFileExists(fileName) {
   If --name option is not specified, default file name would be the original file name with the action appended.
   If --name option is specified, the file name would be the specified name with the original file extension appended.
 */
-async function createFileName(filePath, name, action) {
+export async function createFileName(filePath, name, action) {
   const ext = path.extname(filePath);
   const fileName = path.basename(filePath, ext);
   let savedName =
@@ -79,7 +79,7 @@ async function createFileName(filePath, name, action) {
   If user decides to override, the original savedName is returned.
   If user decides to rename, the new name specified by user is returned.
 */
-async function handleDuplicateFile(savedName) {
+export async function handleDuplicateFile(savedName) {
   let newName;
   let duplicateExists;
   let toOverride;
@@ -109,7 +109,7 @@ async function handleDuplicateFile(savedName) {
 }
 
 /*
-  Checks if the file extension is valid.
+  Checks if the file extension is valid. The file extension should be .pdf.
 */
 export function checkFileExtension(filePaths) {
   filePaths.forEach((element) => {
