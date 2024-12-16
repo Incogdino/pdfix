@@ -23,15 +23,20 @@
     },
     {
       "src": "contents/gettingStarted.md",
-      "title": "Getting started",
+      "title": "Getting Started",
       "headings": {
-        "getting-started": "Getting started"
+        "getting-started": "Getting started",
+        "prerequisites": "Prerequisites",
+        "the-fun-begins": "The fun begins"
       },
       "headingKeywords": {}
     },
     {
       "src": "contents/plannedEnhancements.md",
-      "headings": {},
+      "title": "Planned Enhancements",
+      "headings": {
+        "planned-enhancements": "Planned enhancements"
+      },
       "headingKeywords": {}
     },
     {
