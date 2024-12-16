@@ -1,6 +1,6 @@
 {
   "name": "pdfix",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Application for managing and updating pdf documents",
   "main": "index.js",
   "scripts": {

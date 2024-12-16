@@ -24,6 +24,6 @@ To get started with using PDFix:
 
 1. Ensure you have the lastest version of NodeJS installed on your computer. If you don't, head down to the [download page](https://nodejs.org/en/download/package-manager) of NodeJS and download the latest version of node according to your operating system.
 
-2. Open up your command prompt and navigate to a folder where you would like to store the application. Then run `npm i pdfix`
+2. Open up your command prompt and navigate to a folder where you would like to store the application. Then run `npm i -g pdfix`
 
-3. You can view the download page for more information.
+3. You can view the [download page](https://www.npmjs.com/package/pdfix) for more information.

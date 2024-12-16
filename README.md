@@ -31,6 +31,6 @@ PDFix safeguards your documents and empower you with a reliable and trustworthy 
 
 ## Getting started
 
-To get started with using PDFix, check out the [Getting started](./contents/gettingStarted.md) page.
+To get started with using PDFix, check out the [Getting started](https://incogdino.github.io/pdfix/contents/gettingStarted.html) page.
 
 Alternatively, you can visit the [PDFix homepage](https://incogdino.github.io/pdfix/) to learn more!
