@@ -11,6 +11,7 @@
     <li><a href="{{baseUrl}}/contents/gettingStarted.html" class="nav-link">Getting Started</a></li>
     <li><a href="{{baseUrl}}/contents/commands.html" class="nav-link">Commands</a></li>
     <li><a href="{{baseUrl}}/contents/plannedEnhancements.html" class="nav-link">Planned Enhancements</a></li>
+    <li><a href="{{baseUrl}}/contents/plannedEnhancements.html" class="nav-link"><i class="fa-brands fa-github fa-xl"></i></i></a></li>
     <li slot="right">
       <form class="navbar-form">
         <searchbar :data="searchData" placeholder="Search" :on-hit="searchCallback" menu-align-right></searchbar>

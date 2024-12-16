@@ -27,3 +27,8 @@ To get started with using PDFix:
 2. Open up your command prompt and navigate to a folder where you would like to store the application. Then run `npm i -g pdfix`
 
 3. You can view the [download page](https://www.npmjs.com/package/pdfix) for more information.
+
+<box type="warning">
+
+If you are running **macOS**, and is facing permission issues when running `npm i -g pdfix`, try running the command with sudo instead to indicate that you are [running the command](https://github.com/nodejs/help/issues/3893) as root instead. `sudo npm i -g pdfix`.
+</box>
