@@ -12,7 +12,7 @@ This section provides an overview of all available commands and options availabl
 
 ## Summary of Commands
 
-This part provides a high level summary of the list of available commands and what they do. For more specific details, please refer to the individual commands [below](#the-help-command) for the specific command.
+A high level summary of the list of available commands and what they do are listed below. For more specific details, please refer to the individual commands [below](#the-help-command) for the specific command.
 
 <center>
 

@@ -8,9 +8,9 @@
 
 This section tells you how PDFix is typically used.
 
-PDFix is not meant to be used as a standalone tool. It should be used to complement other document tools. For instance, a pdf viewer like Adobe Acrobat should be used alongside PDFix to view and determine the pages to remove.
+As PDFix does not come with an inbuilt pdf viewer, it is not possible to view the content of the pdf to modify just by using PDFix. Instead, it should be complemented with a pdf viewer like Adobe Acrobat to view and determine the pages to edit if a visual is required.
 
-This is what a typical workflow for PDFix may look like for removing some pages off a pdf file:
+This is what a typical workflow for PDFix may look like for [removing some pages](./commands.md#remove-pages-from-a-pdf-file-removepages) from a pdf file:
 
 1. Open the pdf file in a pdf viewer such as Adobe Acrobat or your browser
 
@@ -23,9 +23,11 @@ This is what a typical workflow for PDFix may look like for removing some pages 
 
 3. Run the [`removePages`](./commands.md#remove-pages-from-a-pdf-file-removepages) command from the command line
 
-The updated pdf file will be stored in a seperate folder named `updated` in the same location the command was called.
+The updated pdf file will be stored in a seperate folder named `removed` in the same location the command was called.
 
 <box type="tip">
   
-  Navigate to your desired location and issue the commands from that location. This will cause PDFix to create the `removed` folder from your current location. 
+  Calling the commands from your desired location will cause PDFix to create the `removed` folder from your current location. 
 </box>
+
+For more information on the available commands, please refer to the [Commands](./commands.md) page.
